@@ -1,0 +1,6 @@
+export const actionTypes = {
+    ADD_TO_PROFILE : 'ADD_TO_PROFILE',
+    FIND_PAIRS : 'FIND_PAIRS',
+    FIND_WINE : 'FIND_WINE',
+    POPULATE_BEERS : 'POPULATE_BEERS'
+}

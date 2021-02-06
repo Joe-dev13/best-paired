@@ -1,0 +1,15 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+.home-page-container{
+    text-align: center;
+}
+
+.beers{
+    margin: 0 0 12px 0;
+}
+
+.some{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
