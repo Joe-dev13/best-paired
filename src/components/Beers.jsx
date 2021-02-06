@@ -13,7 +13,7 @@ function Beers(props) {
             {props.beers.map(b => {
                 return (
                 <>
-                    <Beer beer={b}/>
+                    <Beer beer={b} key={b.name}/>
                 </>
                     )
             })}

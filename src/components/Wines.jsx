@@ -5,14 +5,14 @@ import { winePairs } from '../pairs/winePairs';
 import Wine from './Wine';
 
 function Wines(props) {
-    useEffect(() => { props.findWine(winePairs) }, []);
+    useEffect(() => { props.findWine(winePairs) }, [winePairs]);
         return (
             <>
             <h1>Wines</h1>
             {props.wine.map(b => {
                 return (
                     <>
-                    <Wine wine={b} />
+                    <Wine wine={b} key={b.wineName}/>
                     </>
                 )
             })}
