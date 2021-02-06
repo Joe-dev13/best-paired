@@ -1,6 +1,5 @@
-import {useState} from 'react'
-import Beers from './Beers'
-import Wines from './Wines'
+import Beers from './Beers';
+import Wines from './Wines';
 
 export default function DrinksPage() {
 

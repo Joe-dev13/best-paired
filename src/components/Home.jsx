@@ -21,24 +21,3 @@ export default function Home() {
     )
 }
 
-        {/* <div className = "some">
-            <div className= "beers">
-                <button onClick={handleClick}>Coors</button>
-            </div>
-            <div className= "beers">
-                <button>Coors</button>
-            </div>
-            <div className= "beers">
-                <button>Coors</button>
-            </div>
-            <div className= "beers">
-                <button>Coors</button>
-            </div>
-            <div className= "beers">
-                <button>Coors</button>
-            </div>
-            <div className= "beers">
-                <button>Coors</button>
-            </div>
-        </div>
-         */}
