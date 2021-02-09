@@ -3,7 +3,8 @@ import { userChoice } from './reducers'
 
 const initialState = {
     beers: [],
-    wine: []
+    wine: [],
+    savedDrinks: []
 }
 
 export const store = createStore( userChoice , initialState )

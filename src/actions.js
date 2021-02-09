@@ -1,8 +1,9 @@
 import { actionTypes } from './constants'
 
-export function addToProfile() {
+export function addToProfile( drinks ) {
     return{
-        type: actionTypes.ADD_TO_PROFILE
+        type: actionTypes.ADD_TO_PROFILE,
+        payload: drinks
     }
 }
 

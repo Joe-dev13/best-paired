@@ -13,3 +13,13 @@
     justify-content: space-around;
     flex-direction: column;
 }
+
+.navBar{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.link{
+    display: flex;
+    justify-content: space-around;
+}

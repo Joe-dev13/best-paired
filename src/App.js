@@ -5,7 +5,7 @@ import Home from './components/Home';
 import FoodPage from './components/FoodPage';
 import Profile from './components/Profile';
 import DrinksPage from './components/DrinksPage';
-
+import './components/styles/Home.css'
 
 
 function App() {
@@ -16,13 +16,21 @@ function App() {
     <div className="App">
     <Router>
       <nav className= "navBar">
+        <div className="link">
+          <Link to="/">Home</Link>
+        </div>
+        <div className="link">
+          <Link to="/foodChoices">Food</Link>
+        </div>
+        <div className="link">
+          <Link to="/drinkChoices">Drinks</Link>
+        </div>
+        <div className="link">
+          { isLoggedIn && <Link to="/profile">My Profile</Link>}
+        </div>
         <button onClick={_toggleLoggedIn}>
             { isLoggedIn ? 'logout' : 'login'}
         </button>
-        <Link to="/">Home</Link>
-        <Link to="/foodChoices">Food</Link>
-        <Link to="/drinkChoices">Drinks</Link>
-        { isLoggedIn && <Link to="/profile">My Profile</Link>}
       </nav>
         <Switch>
             <Route exact path="/">

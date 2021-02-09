@@ -6,7 +6,8 @@ import { actionTypes } from './constants'
 
 const initialState = {
     beers : [],
-    wine : []
+    wine : [],
+    savedDrinks: [],
 }
 
 export function userChoice( state = initialState , action ) {
@@ -19,7 +20,12 @@ export function userChoice( state = initialState , action ) {
                 ]
             };
         case actionTypes.ADD_TO_PROFILE:
-            return state;
+            return {
+                ...state,
+                savedDrinks: [
+                    ...action.payload
+                ]
+            }
         case actionTypes.POPULATE_BEERS:
             return {
                 ...state,

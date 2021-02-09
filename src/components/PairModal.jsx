@@ -30,7 +30,7 @@ export default function PairModal({isOpen, hidePairs, drink, food}) {
 
         <ModalFooter>
             <Button onClick={hidePairs} variant="secondary">Close</Button>
-            <Button variant="primary">Save changes</Button>
+            <Button variant="primary">Save To Profile</Button>
         </ModalFooter>
     </Modal>
     )
