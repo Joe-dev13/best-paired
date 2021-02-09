@@ -6,7 +6,7 @@ import Beer from './Beer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Beers(props) {
-    useEffect(() => { props.populateBeers(pairs) },[])
+    useEffect(() => { props.populateBeers(pairs) }, [])
         return (
             <>
             <h1>Beers</h1>
