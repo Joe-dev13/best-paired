@@ -2,7 +2,7 @@ import React from 'react'
 import { connect } from 'react-redux'
 import { addToProfile } from '../actions'
 
-export default function Profile(props) {
+function Profile(props) {
     return (
         <div>
             <h1>My Drinks</h1>
