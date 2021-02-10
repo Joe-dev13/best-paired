@@ -7,9 +7,10 @@ export function addToProfile( drinks ) {
     }
 }
 
-export function findPairs() {
+export function findPairs( food ) {
     return{
-        type: actionTypes.FIND_PAIRS
+        type: actionTypes.FIND_PAIRS,
+        payload: food
     }
 }
 

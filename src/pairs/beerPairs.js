@@ -2,25 +2,25 @@ export const pairs = [
     {
         name: 'BudLight',
         food:  [
-            'Cheese Burger',
+            'Steakburger with Tangy Caramelized Onions and Herb Butter',
             'Cheese Pizza',
-            'Lemon Pepper'
+            'Smoked Chicken Wings'
         ]
     },
     {
         name: 'Coors Light',
         food:  [
             'Cheese Burger',
-            'Cheese Pizza',
-            'Lemon Pepper'
+            'Cheesy Potato and Kale Gratin With Rye Croutons',
+            'Lemon-Roasted Salmon With Escarole, Asparagus, and Potatoes'
         ]
     },
     {
         name: 'Budweiser',
         food:  [
             'Cheese Burger',
-            'Cheese Pizza',
-            'Lemon Pepper'
+            'Chicken Chimichanga',
+            'Sheet-Pan Crispy Fish Tacos With Chili-Roasted Corn'
         ]
     },
     {
@@ -34,49 +34,49 @@ export const pairs = [
     {
         name: 'Heineken',
         food:  [
-            'Cheese Burger',
+            'Sheet-Pan Crispy Fish Tacos With Chili-Roasted Corn',
             'Cheese Pizza',
-            'Lemon Pepper'
+            'Smoked Chicken Wings'
         ]
     },
     {
         name: 'Blue Moon',
         food:  [
-            'Cheese Burger',
-            'Cheese Pizza',
-            'Lemon Pepper'
+            'Coconut Chicken Curry in a Hurry',
+            'Chicken Chimichanga',
+            'Lemon Pepper Wings'
         ]
     },
     {
         name: 'Yuengling Lager',
         food:  [
-            'Cheese Burger',
+            'Grilled Pork Chops with Pineapple-Turmeric Glaze',
             'Cheese Pizza',
-            'Lemon Pepper'
+            'Lemon-Roasted Salmon With Escarole, Asparagus, and Potatoes'
         ]
     },
     {
         name: 'Samuel Adams',
         food:  [
-            'Cheese Burger',
-            'Cheese Pizza',
-            'Lemon Pepper'
+            'Grilled Jerk Chicken',
+            'Cheesy Potato and Kale Gratin With Rye Croutons',
+            'Lemon Pepper Wings'
         ]
     },
     {
         name: 'Modelo',
         food:  [
-            'Cheese Burger',
-            'Cheese Pizza',
-            'Lemon Pepper'
+            'Chicken Chimichanga',
+            'Southern One-Cup Peach Cobbler',
+            'Lemon Pepper Wings'
         ]
     },
     {
         name: 'Dos Equis',
         food:  [
-            'Cheese Burger',
+            'Herb-Crusted Cauliflower Steaks',
             'Cheese Pizza',
-            'Lemon Pepper'
+            'Smoked Chicken Wings'
         ]
     }
 ]

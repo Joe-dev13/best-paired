@@ -1,9 +1,5 @@
 import { actionTypes } from './constants'
 
-// const [ error, setError ] = useState(null);
-// const [ isLoaded, setIsLoaded ] = useState(false);
-// const [ state , setState ] = useState([]);
-
 const initialState = {
     beers : [],
     wine : [],
